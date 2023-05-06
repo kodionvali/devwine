@@ -1,0 +1,578 @@
+@font-face {
+    font-family: Barlow;
+    src: url('../fonts/Barlow-Regular.ttf');
+}
+
+html {
+    clear: both;
+      overflow: auto;
+      position: relative;
+      height: 100%!important;
+      scroll-behavior: smooth;
+  }
+.heading-title {
+    color: #54595f;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 1em;
+    padding-top: 52px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+nav.pagination-1 li a {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .slide-year .owl-nav {
+    display: block !important;
+  }
+  
+  .slide-year .owl-nav .owl-prev span,
+  .slide-year .owl-nav .owl-next span {
+    font-size: 54px !important;
+  }
+  
+  .slide-year .owl-nav .owl-prev {
+    position: absolute;
+    top: 30%;
+    left: -40px;
+  }
+  
+  .slide-year .owl-nav .owl-next {
+    position: absolute;
+    top: 30%;
+    right: -40px;
+  }
+  
+  .notifcation-icon .dropdown-toggle::after {
+    content: none;
+  }
+  
+  .mobile-notification-view {
+    display: none;
+  }
+  
+  .collapse .navbar-nav {
+    padding-left: 29rem;
+    vertical-align: top;
+    font-size: 15px;
+  }
+  
+  li .nav-link {
+    color: black;
+    font-weight: bold;
+  }
+  
+  article,aside, details,figcaption,figure,footer,header,main,menu,nav,section,summary {
+    display: block;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: black;
+  }
+  
+  nav.navbar .navbar-nav .custom-make-dropdown .dropdown-menu {
+    left: -120px !important;
+    width: 100%;
+    min-width: 254px;
+  }
+  
+  .navbar-nav .nav-item .custom-make-dropdown .dropdown-menu {
+    min-height: auto;
+    overflow-y: auto;
+    max-height: 357px;
+  }
+  
+  .navbar-nav .nav-item .custom-make-dropdown .dropdown-menu::-webkit-scrollbar {
+    width: 7px;
+    height: 20px;
+    min-height: 20px;
+  }
+  
+  .navbar-nav
+    .nav-item
+    .custom-make-dropdown
+    .dropdown-menu::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+  }
+  
+  .navbar-nav
+    .nav-item
+    .custom-make-dropdown
+    .dropdown-menu::-webkit-scrollbar-thumb {
+    background: #6d000073;
+    border-radius: 10px;
+    height: 20px;
+    min-height: 20px;
+  }
+  
+  .navbar-nav
+    .nav-item
+    .custom-make-dropdown
+    .dropdown-menu::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+  }
+  
+  hr {
+    color: #dbc56d;
+    height: 5px !important;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:focus,
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: black;
+  }
+  
+  .navbar-light .navbar-brand {
+    padding-left: 37px;
+  }
+  
+  nav.navbar {
+    -webkit-animation-name: animationFade;
+    -o-animation-name: animationFade;
+    animation-name: animationFade;
+    -webkit-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  .nav-pills .dashbord-heading h4 {
+    line-height: 32px;
+  }
+  
+  .tabs-data .nav-link {
+    color: black;
+  }
+ nav.navbar .dropdown-menu.show ul.design-drop-down {
+    width: 100%;
+ }
+  
+  .navbar img {
+    height: 145px;
+    transition: all 0.5s;
+  }
+
+  nav.navbar .custom-navbar {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 2px solid #c0a144;
+  }
+  
+  .darkHeader .custom-navbar {
+    border-bottom: 0 !important;
+  }
+  
+  nav.navbar .custom-navbar .logo-make {
+    width: 28%;
+  }
+  
+  nav.navbar .custom-navbar .logo-make .navbar-brand.logo_text {
+    padding: 0;
+    display: flex;
+    font-weight: 400;
+    align-items: center;
+    line-height: 40px;
+    font-size: 37px;
+  }
+  
+  nav.navbar .custom-navbar div#navbarSupportedContent {
+    width: 72%;
+    justify-content: end;
+  }
+  
+  ul.navbar-nav {
+    padding: 0px !important;
+  }
+  
+  ul.navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    padding: 21px 16px;
+    font-weight: 500;
+    transition: all 0.2s;
+    font-weight: 700;
+  }
+  
+  ul.navbar-nav .nav-item:hover .nav-link {
+    background: #c0a144;
+    color: #fff;
+  }
+  
+  ul.navbar-nav .nav-item.active .nav-link {
+    color: #c0a144;
+  }
+  .navbar-expand-lg .container-fluid {
+    padding: 0 30px;
+}
+.navbar-expand-lg {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    transition: all 0.8s;
+    z-index: 9999;
+}
+  .nav-pills .dashboard-title {
+    text-align: left;
+    font-size: 18px;
+    text-transform: capitalize !important;
+  }
+  
+  .nav-pills .nav-link,
+  .nav-pills .dashboard-title {
+    text-align: left;
+    font-size: 14px;
+    padding: 6px 15px;
+    border-radius: 0px;
+    border-bottom: 1px solid #edeaea;
+  }
+  
+  .nav-pills .nav-link.active {
+    background: #c0a144 !important;
+  }
+  
+  .nav-pills .nav-link.active a {
+    color: #fff !important;
+  }
+  
+  .nav-pills {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+  
+    /* Footer design */
+  .copyright-content {
+    padding: 30px 0!important;
+    color: #c9c9c9;
+    font-size: 16px;
+    background: #000;
+}
+.text-center {
+    text-align: center!important;
+}
+
+.whole-data {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+.custom-bg-dropdown .dropdown-menu {
+    background: #fff;
+    border-radius: 0px;
+    padding: 0px;
+}
+#myBtn {
+    position: fixed;
+    right: 20px;
+    bottom: 121px;
+    width: 50px;
+    height: 50px;
+    color: #ffffff;
+    background-color: #C0A144;
+    font-size: 1rem;
+    border-radius: 60px;
+    border: 0px;
+    transition: all 0.3s;
+    z-index: 999999999;
+}
+#myBtn:hover {
+    background: #000;
+}
+.copyright-content {
+    padding: 30px 30px!important;
+    font-size: 14px;
+    color:white;
+    padding: 30px 0!important;
+    color: #c9c9c9;
+    font-size: 16px;
+}
+.footer-content{
+    background-color:black!important;
+  }
+  .form_data button {
+    background: #c0a144;
+    font-size: 20px;
+    border: 6px;
+    border-radius: 7px;
+}
+.wine-btn {
+    background: #c0a144;
+    color: #fff!important;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 50px;
+    display: inline-block;
+    text-align: center;
+    width: 254px;
+    position: relative;
+    overflow: hidden;
+    z-index: 9;
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, iframe, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+    border: 0;
+    font-size: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+/* Guest Rewar CSS start from here */
+.gust-rewards .big-heading-b, .big-heading-b {
+    text-align: center;
+    font-size: 40px;
+    color: #54595f;
+    text-transform: uppercase;
+    padding-bottom: 0px;
+    font-weight: 600;
+    margin: 0 0 59px;
+}
+.gust-rewards {
+      padding: 70px 0;
+  }
+
+.submit-review-custom .form-heading {
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 0 20px;
+}
+.gust-reward-div h1 {
+    font-size: 23px;
+}
+#question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#question input {
+    width: 50px;
+    margin-left: 15px;
+    border: 1px solid #bfb8b8;
+}
+#message,
+#success,
+#fail {
+    display: none;
+}
+.form_data {
+    padding: 30px 30px 10px;
+    border: #ddd solid 1px;
+    background-color: #fbfaf4;
+}
+.gust-rewards .checkboxes-section p {
+      font: 400 15px/25px 'Mulish', sans-serif;
+      color: #4d4d4d;
+      margin-bottom: 20px;
+  }
+  .small-heading-s {
+      font: 700 25px/25px 'Mulish', sans-serif;
+      color: #4d4d4d;
+      margin-bottom: 20px;
+  }
+  .gust-rewards ul li,
+  .guest-rewards .checkboxes-section ul li {
+      font: 400 15px/25px 'Mulish', sans-serif;
+      color: #4d4d4d;
+      margin-bottom: 13px;
+      padding-left: 26px;
+      position: relative;
+  }
+  .gust-rewards ul li::before,
+  .guest-rewards .checkboxes-section ul li::before  {
+      content: "\f046";
+      display: inline-block;
+      padding-right: 3px;
+      vertical-align: middle;
+      font-family: FontAwesome;
+      position: absolute;
+      color: #846d1f;
+      font-size: 17px;
+      left: 0px;
+      top: 0px;
+  }
+  .steptwo .custom-checkbox-made input {
+     border: 1px solid #c2bcbc;
+  }
+  .guest-rewards .form_data .btn-links-box {
+      margin: 0 auto;
+      }
+      .gusest-c b {
+    color: #777272;
+}
+section.travel-sec.dashbord-sec.admin-dash {
+    padding: 0px 0px 75px;
+}
+.gusest-c {
+      position: relative;
+  }
+  .gusest-c::before {
+      background-repeat: no-repeat;
+      width: 100%;
+      background-size: contain;
+      height: 565px;
+      margin: 0 auto;
+      display: flex;
+      position: absolute;
+      left: auto;
+      transform: rotate(0deg);
+      content: "";
+      background-image: url('https://devsite.winecountryweekends.ca/images/before-h.png');
+      top: 0px;
+      right: auto;
+      opacity: 0.1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-position: center;
+  }
+  .eye {
+      position: relative;
+  }
+  .eye input {
+      padding-right: 40px;
+  }
+  .eye i {
+      position: absolute;
+      right: 11px;
+      top: 9px;
+  }
+  .gust-reward-div form .col-lg-6,
+      .gust-reward-div form .col-lg-12
+       {
+      margin: 0 0 15px;
+  }
+  .gust-reward-div form .row {
+      margin-bottom: 0px!important;
+  }
+  .big-text h2.big-heading-b {
+      font-size: 52.5px;
+      margin: 0;
+      font-size: 30.5px;
+  }
+  .dashbord-sec, .login-form, .navbar ~ .container, .navbar ~ .container-fluid, .binery-page, .guest-rewards {
+    margin-top: 192px !important;
+}
+.form_data h1 {
+    color: #c0a144;
+    text-align: center;
+}
+footer {
+    bottom: 0px!important;
+    display: block;
+}
+.footer-fixed {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+body, button, input, select, textarea{
+    font-weight: 400;
+    font-size: 14px;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+.btn-box-bx {
+    margin: 40px 0 30px!important;
+}
+.login-form h2 {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 6px 0;
+    color: #C0A144;
+}
+.login-form input {
+    background: #fff;
+    border: 1px solid #e1dcdc!important;
+    padding: 10px 36px!important;
+}
+.emaildiv {
+    position: relative;
+    padding: 0;
+}
+.login-form .form-control {
+    background: none;
+    border-radius: 0;
+    margin: 0 0 35px;
+    font-size: 16px;
+}
+.passdiv {
+    position: relative;
+    padding: 0 0;
+}
+.login-form .form-check input {
+    padding: 0px!important;
+}
+.login-form label {
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: space-between;
+    display: flex;
+}
+p.or.mt-2 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.su-btn .btn-link {
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+}   
+.login-form label a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+a.reward-link {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+p, h1, h2, h3, h4, h5, h6, li, a {
+    color: #485460;
+}
+
+/* Welcome page CSS start here */
+.perfect-accessory:before {
+    width: 100%;
+    height: 100%;
+    background: #00000021;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    content: "";
+    z-index: 0;
+}
+.navbar ~ .tob-sec-content {
+    margin-top: 168px !important;
+}
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+    display: block;
+}
+.perfect-accessory {
+    background-size: cover;
+    background-image: url('https://devsite.winecountryweekends.ca/images/wine.jpg');
+    height: 782px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-position: center center;
+}
+ 
