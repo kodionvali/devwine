@@ -1,14 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
-use App\Http\Controllers\UserController;
-
-use App\Http\Controllers\VendorController;
-
-use App\Http\Controllers\Auth\LoginController;
-
-use App\Http\Controllers\StripePaymentController;
+use App\Http\Controllers\TabController;
 
 
 
@@ -54,18 +47,16 @@ Route::get('/login', function () {
 Route::get('/sysadmin', function () {
     return view('/includes/creation_form/sysadmin');
 });
-
-Route::get('/payment_done', function () {
-    return view('/includes/booking_details/payment_done');
+Route::get('/dashboard', function () {
+    return view('/includes/dashboard');
 });
-
 
 Route::get('/webp', function () {
 
     return view('/webp');
 
 });
-
+Route::get('/tab_content/{tabId}', [TabController::class, 'getContent']);
 
 
 Auth::routes();
